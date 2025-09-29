@@ -136,4 +136,20 @@ dist
 
 # Vite logs files
 vite.config.js.timestamp-*
+
+# Ignorar node_modules en frontend y backend
+frontend/node_modules/
+backend/node_modules/
+
+# Archivos de entorno
+.env
+frontend/.env
+backend/.env
+
+# Carpetas de build y distribución
+frontend/dist/
+frontend/build/
+backend/dist/
+backend/build/
+
 vite.config.ts.timestamp-*
